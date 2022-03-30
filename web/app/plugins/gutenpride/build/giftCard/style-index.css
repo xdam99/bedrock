@@ -1,0 +1,86 @@
+/*!************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/giftCard/style.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-gutenpride {
+  background-color: #21759b;
+  padding: 2px;
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+  background-color: #00a;
+}
+
+.nav-primary {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-primary a {
+  color: white;
+}
+
+.menu-menu-container {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.menu-menu-container ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.menu-menu-container ul li a {
+  display: block;
+}
+
+.banner__desc {
+  width: 100%;
+  height: 700px;
+  background-image: url(../images/banner.7a94a114.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner__desc div {
+  width: 50%;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.banner__desc h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.banner__desc h2 {
+  font-size: 2rem;
+}
+
+.banner__desc p {
+  font-size: 2rem;
+}
+
+.banner__desc a {
+  padding: 10px;
+  color: white;
+  background-color: blueviolet;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
