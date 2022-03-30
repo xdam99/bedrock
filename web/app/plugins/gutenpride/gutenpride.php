@@ -36,5 +36,6 @@ function create_block_gutenpride_block_init() {
 	register_block_type( __DIR__ . '/build/blocTxt' );
 	register_block_type( __DIR__ . '/build/txtBlack' );
 	register_block_type( __DIR__ . '/build/giftCard' );
+	register_block_type( __DIR__ . '/build/victory' );
 };
 add_action( 'init', 'create_block_gutenpride_block_init' );

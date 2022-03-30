@@ -41,7 +41,7 @@
           </div>
         </div>
         <div class="victory-music__content__cards__card">
-        <div class="card__albul Rights Reserved.h3>
+          <div class="card__album">
             </div>
             <p class="card__desc__year">2021</p>
             <p class="card__desc__genre">Hip hop, Electronic</p>
