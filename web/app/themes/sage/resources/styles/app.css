@@ -1,0 +1,296 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.logo-txt {
+  fill: white;
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+  background-color: #00a;
+}
+
+.nav-primary {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-primary a {
+  color: white;
+}
+
+.menu-menu-container {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.menu-menu-container ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.menu-menu-container ul li a {
+  display: block;
+}
+
+.banner__desc {
+  width: 100%;
+  height: 700px;
+  background-image: url('../images/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner__desc div {
+  width: 50%;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.banner__desc h1 {
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.banner__desc h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+.banner__desc p {
+  color: white;
+  font-size: 2rem;
+}
+
+.banner__desc a {
+  padding: 10px;
+  background-color: blueviolet;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+
+.victory-music {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #00a;
+}
+
+.victory-music__content {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.victory-music__content__title {
+  color: white;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.victory-music__content__cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.victory-music__content__cards__card {
+  width: 30%;
+  background-color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.card__album {
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/stromae.png');
+}
+
+.card__desc {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.card__desc__title {
+  display: flex;
+}
+
+.card__desc__title h2 {
+  font-weight: bolder;
+}
+
+.card__desc__year {
+  background-color: #00a;
+  color: white;
+  border-radius: 5px;
+  width: 15%;
+  text-align: center;
+}
+
+.download-app {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 50px auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.download-app__content {
+  width: 30%;
+}
+
+.download-app__content__title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.download-app__content__link {
+  display: block;
+  width: 40%;
+  color: white;
+  text-transform: uppercase;
+  background-color: #e2d;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.phone {
+  width: 30%;
+  height: 500px;
+  background-image: url('../../public/images/phone.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.gift-card {
+  background-color: #00a;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.gift-card > div {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 50px auto;
+}
+
+.cards {
+  width: 30%;
+  height: 200px;
+  background-image: url('../../public/images/cards.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.gift-card__content {
+  width: 50%;
+}
+
+.gift-card__content__title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: white;
+  font-weight: bolder;
+}
+
+.gift-card__content__desc {
+  color: white;
+}
+
+.gift-card__content__link {
+  color: #00a;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  margin-top: 30px;
+  width: 40%;
+  text-align: center;
+}
+
+.users {
+  width: 100%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.users__title {
+  text-transform: uppercase;
+  color: #00a;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.users__content {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 20px auto;
+  align-items: center;
+}
+
+.user__profil {
+  width: 100%;
+  height: 170px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-image: url('../../resources/images/terminator.png');
+  background-color: #00a;
+}
+
+.user__name {
+  text-transform: uppercase;
+  color: #00a;
+  text-align: center;
+}
+
+.user__quote {
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  align-items: center;
+}
+
+.footer__logo-txt {
+  fill: #00a;
+}
+
+.footer h1 {
+  font-weight: 700;
+}
